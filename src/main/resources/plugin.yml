@@ -1,0 +1,14 @@
+name: Sponge
+version: '1.0-SNAPSHOT'
+main: winlyps.sponge.Sponge
+api-version: '1.20'
+authors: [ Winlyps ]
+commands:
+  watersponge:
+    description: Gives the player a Water Sponge
+    permission: sponge.watersponge
+    usage: /watersponge
+permissions:
+  sponge.watersponge:
+    description: Allows the player to use the /watersponge command
+    default: op
